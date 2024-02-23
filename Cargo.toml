@@ -1,0 +1,4 @@
+[workspace]
+members = ["no-idf"]
+
+resolver = "2"

@@ -1,0 +1,20 @@
+{
+    "name": "ESP32",
+    "remoteUser": "esp",
+    "updateRemoteUserUID": true,
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "swellaby.rust-pack"
+            ]
+        }
+    },
+    "runArgs": [
+        "--privileged",
+        "--device=/dev/ttyUSB0:/dev/ttyUSB0"
+    ]
+}
