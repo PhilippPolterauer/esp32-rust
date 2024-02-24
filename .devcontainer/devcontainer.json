@@ -9,7 +9,8 @@
         "vscode": {
             "extensions": [
                 "ms-azuretools.vscode-docker",
-                "swellaby.rust-pack"
+                "swellaby.rust-pack",
+                "yzhang.markdown-all-in-one"
             ]
         }
     },
