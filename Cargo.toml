@@ -3,3 +3,9 @@ default-members = ["no-idf"]
 members = ["no-idf"]
 
 resolver = "2"
+
+# [profile.dev.package.esp-storage]
+# opt-level = 3
+
+[profile.release]
+debug = true

@@ -3,7 +3,9 @@ FROM espressif/idf-rust:esp32_latest
 USER root
 RUN usermod -a -G dialout esp
 USER esp
-RUN /home/esp/.cargo/bin/cargo install espflash@3.0.0-rc.1 cargo-espflash@3.0.0-rc.1 --force
+RUN cargo install espflash@3.0.0-rc.1 cargo-espflash@3.0.0-rc.1 --force
+RUN cargo install cargo-generate
+
 # RUN cargo install espflash@3.0.0-rc.1
 # RUN cargo install cargo-espflash@3.0.0-rc.1
 # # ARG USERNAME=vscode
