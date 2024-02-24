@@ -1,4 +1,4 @@
-# ESP32-WROOM-D Rust
+# ESP32-WROOM-D Rust in wsl2 + devcontainer on Windows
 
 This is a playground for testing a esp32-wroom-d development from windows using wsl and a devcontainer.
 
