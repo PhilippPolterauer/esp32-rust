@@ -9,3 +9,7 @@ resolver = "2"
 
 [profile.release]
 debug = true
+opt-level = 3
+
+[profile.dev.package.esp-wifi]
+opt-level = 3
